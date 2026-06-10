@@ -1,17 +1,17 @@
 {
   "schemaVersion": 3,
-  "builtAt": "2026-06-10T12:08:02.996Z",
+  "builtAt": "2026-06-10T12:10:48.154Z",
   "bizId": "qiance-tests",
   "keyVersion": "v1",
   "wasmObfuscated": true,
   "dataPlane": {
     "contractVersion": "2.0.0",
     "collections": {
-      "items": {
-        "indexPath": "data-plane/collections/items/index.json",
-        "idMapPath": "data-plane/collections/items/id-map.json",
-        "itemPathPattern": "data-plane/collections/items/by-id/{id}.json",
-        "schemaRef": "data-plane/schemas/items.v1.json",
+      "tests": {
+        "indexPath": "data-plane/collections/tests/index.json",
+        "idMapPath": "data-plane/collections/tests/id-map.json",
+        "itemPathPattern": "data-plane/collections/tests/by-id/{id}.json",
+        "schemaRef": "data-plane/schemas/qiance-test.v1.json",
         "metadataFields": [
           "title",
           "description",
@@ -38,7 +38,7 @@
   },
   "summary": {
     "totalFiles": 11,
-    "totalSizeBytes": 315641,
+    "totalSizeBytes": 315725,
     "prefixes": [
       "data-plane/"
     ]
@@ -49,20 +49,20 @@
     "entryCount": 7
   },
   "manifest": {
-    "filename": "a0841ebdc295af189349d4ad513e05cbc670953744578443442892fc132e8d11.enc",
+    "filename": "ea233985a91dfa785cf3ff31180aa19a4da647604fd95e2bd4fb535eaa5c4b83.enc",
     "algorithm": "aes-256-gcm",
-    "ivBase64": "YkpfSwzhdfQULWx1",
-    "tagBase64": "ZjCDCezQHjsTfV+N/5Tc8A==",
+    "ivBase64": "XzukM5qaRdibwFSM",
+    "tagBase64": "27RgpqJntn4yx0F1PlyyVQ==",
     "ivLen": 12,
     "tagLen": 16,
     "plaintextLen": 4053,
     "ciphertextLen": 4053
   },
   "wasm": {
-    "filename": "001bcfa3f84156d923056171fac3466f1ab676fb105c80fdecec7e9c9c32469a.enc",
+    "filename": "e5e6008e2901319aacb9407431de65de2f0fdc4be44e3c50c1153d4473af5cd0.enc",
     "algorithm": "aes-256-gcm",
-    "ivBase64": "RIDHO04Qq6rsPFI5",
-    "tagBase64": "A13E0ulRS2xvNLe9P/VwjQ==",
+    "ivBase64": "f8VNQ12B+bJLDBKP",
+    "tagBase64": "JEW2FVgUErAC2wb+70P9xw==",
     "ivLen": 12,
     "tagLen": 16,
     "plaintextLen": 29404,
@@ -71,15 +71,15 @@
   "anchors": [
     {
       "index": 2,
-      "filename": "9a6bf340b125bfbf1e90a537743ffb8438c8cc60e78c95d1a3592844c39587c4.enc"
+      "filename": "389930f2a9220d6601086ffa82544d505a3aaf720d9b8e5d4f99a500467eee35.enc"
     },
     {
       "index": 3,
-      "filename": "f1819337e9896149566c7fa263e36b48e19bfa40d67d1819ddeaa32d4c42c87e.enc"
+      "filename": "8439a76c973aca3deddc33158da93ef83cf7ad2c0e4d664dd4c54a554e4f23a7.enc"
     },
     {
       "index": 4,
-      "filename": "72701195096373d2a11ad8846c1bbe53180cbfe21e93b30dbfbb4eef01dfba20.enc"
+      "filename": "a9562b9be7b35c9b042153658f3e2ed8f78c923ef966bc3daf472a23fb88c8ff.enc"
     }
   ]
 }
